@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: sans-serif;
+            background-color: rgb(226, 203, 111);
+        }
+
+        a{
+            color: cornflowerblue;
+        }
+
+        header{
+            background-color: aliceblue;
+            margin: 10px;
+            padding: 10px;
+            text-align: center;
+        }
+
+        main{
+            background-color: aliceblue;
+            margin: 10px;
+            padding: 10px 10px 20px 10px;
+            border-radius: 10px;
+        }
+        
+        article{
+            text-align: center;
+            background-color: rgb(185, 185, 185);
+        }
+
+        article > p{
+            text-align: justify;
+        }
+
+        nav{
+            background-color: rgb(54, 54, 54);
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.342);
+        }
+
+        article > aside{
+            background-color: rgb(87, 87, 87);
+        }
+
+        nav > a:hover{
+            text-decoration: dashed;
+            margin: 10px 10px 10px 10px;
+            text-align: center;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 1px;
+        }
+
+        h1{
+            text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.342);
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+<section id="assuntos">
+
+</section>
+<section id="noticias">
+    <article>
+        <H2>Noticias Sobre o Brasil</H2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam vitae eos voluptas atque nulla rerum deserunt, vero excepturi aspernatur voluptates quam ducimus voluptatem similique nihil quas dignissimos voluptatibus quod sapiente.
+        </p>
+        <ASide>Artigo desenvolvido pro Luan</ASide>
+    </article>
+</section>
+    </main>
+    <footer>
+        <a href="https://www.cursoemvideo.com">
+            <p>Desenvolvido pelo Curso em Vídeo</p>
+        </a>
+    </footer>
+</body>
+</html>
